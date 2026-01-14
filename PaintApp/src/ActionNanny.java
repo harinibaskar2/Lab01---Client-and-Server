@@ -23,7 +23,7 @@ public class ActionNanny implements ActionListener
            //cast the selected item into a string
             String msgComboBox = (String) comboBox.getSelectedItem();
             System.out.println("Sending " + msgComboBox + " to client");
-            Sender.send(msgAction);
+            Sender.send(msgComboBox);
         }
     }
 }
