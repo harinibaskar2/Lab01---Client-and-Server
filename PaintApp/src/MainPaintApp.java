@@ -1,4 +1,4 @@
-
+// Ethan Schnepp, Euclid Peregrin, Harini Baskar, Giselle Ibarra
 import javax.swing.*;
 import java.awt.*;
 import javax.swing.*;
