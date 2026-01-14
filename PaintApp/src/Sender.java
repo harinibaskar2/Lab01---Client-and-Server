@@ -8,7 +8,7 @@ public class Sender {
         final int port = 6666;
         try (Socket socket = new Socket(host, port); 
              DataOutputStream out = new DataOutputStream(socket.getOutputStream())) {
-            String msg = "hello-"; // connect to paint app 
+            String msg = (args != null && args.length > 0) ? args[0] : "EMPTY"; // connect to paint app 
             out.writeUTF(msg);
             out.flush();
         } catch (Exception e) {
