@@ -13,9 +13,12 @@ public class ActionNanny implements ActionListener
         System.out.println("ActionNanny: " + e.getActionCommand());
         //cast the action command into string
         String msgAction = (String) e.getActionCommand();
-        System.out.println("Sending " + msgAction + " to server");
-        //sending message
-        Sender.send(msgAction);
+        if (!(e.getSource() instanceof JComboBox)) {
+            System.out.println("Sending " + msgAction + " to server");
+            //sending message
+            Sender.send(msgAction);
+        }
+        
 
         if (e.getSource() instanceof JComboBox) {
             JComboBox<?> comboBox = (JComboBox<?>) e.getSource();
