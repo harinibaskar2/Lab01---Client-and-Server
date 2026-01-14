@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 package PaintApp.src;
+=======
+>>>>>>> 279f075307efa0b74cc92ea9a7bc671760eecea7
 import java.io.DataOutputStream;
 import java.net.Socket;
 

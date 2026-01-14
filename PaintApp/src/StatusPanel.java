@@ -1,4 +1,4 @@
-package PaintApp.src;
+
 
 import javax.swing.*;
 //creates a panel with two buttons: Undo and Erase
