@@ -14,6 +14,9 @@ public class MouseListner implements MouseListener
         int x = e.getX();
         int y = e.getY();
         System.out.println("Mouse Pressed: " + x + ", " + y);
+
+      
+        Sender.send(null);
     }
 
     @Override
