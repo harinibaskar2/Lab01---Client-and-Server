@@ -1,7 +1,7 @@
 package PaintApp.src;
 
-import javax.swing.*;
 import java.awt.*;
+import javax.swing.*;
 
 public class DrawPanel extends JPanel
 {
@@ -9,4 +9,8 @@ public class DrawPanel extends JPanel
     {
         setBackground(new Color(176, 250, 192));
     }
-}
+
+
+} 
+
+
