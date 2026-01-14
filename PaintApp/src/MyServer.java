@@ -1,3 +1,5 @@
+package PaintApp.src;
+
 import java.io.DataOutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;

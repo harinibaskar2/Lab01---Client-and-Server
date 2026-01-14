@@ -1,3 +1,5 @@
+package PaintApp.src;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -34,6 +36,10 @@ public class ToolPanel extends JPanel
         rectangleRadio.addActionListener(actionNanny);
         circleRadio.addActionListener(actionNanny);
         arcRadio.addActionListener(actionNanny);
+
+        colorMenu.addActionListener(actionNanny);
+
+
 
 
 
